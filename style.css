@@ -155,10 +155,13 @@
       width: 98%;
       transition: .5s all;
   }
+  .hints{
+    font-size: .9rem;
+  }
  
 }
 
-@media screen and (max-width : 385px) {
+@media screen and (max-width : 400px) {
   .keys{
       height: 150px;
       margin: 1rem auto 0;
@@ -172,6 +175,24 @@
   }
   .main{
     width: 98%;
+    transition: .5s all;
+  }
+ 
+} 
+@media screen and (max-width : 320px) {
+  .keys{
+      height: 120px;
+      margin: 1rem auto 0;
+      transition: .5s all;
+  }
+  .nowplaying{
+      font-size: .8rem;
+  }
+  .hints{
+    font-size: .8rem;
+  }
+  .main{
+    width: 100%;
     transition: .5s all;
   }
  
